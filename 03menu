@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Tritons Cafe</title>
+
+<style type="text/css">
+h1 { font-size: 60px; text-align:center; }
+.header-list ul{text-align:center;list-style:none;
+  padding-left:0px;font-size: 25px;}
+.header-list li{width:10px;height:50px; padding:30px; margin:10px;}
+.inline li {display: inline;}
+.inline li a{text-decoration: none;color: #000; }
+p {text-align:center; }
+.footer-logo{font-size:35px;}
+.footer-address li{list-style:none;float: none;font-size:15px;}
+.footer-mail{text-align:center;font-size:20px;}
+
+
+
+
+
+
+h2 { font-size: 3em; text-align:center; }
+h3 { font-size: 2em; text-align:center; }
+h4 { font-size: 1em; text-align:center; }
+div.blocka {float: left;width: 35%;}
+div.blockb {float: left;width: 30%;}
+div.blockc {float: left;width: 35%;}
+
+
+ruby {text-align:center; text-decoration: underline;}
+
+
+</style>
+
+</head>
+
+<body>
+
+<<div class="header">
+  <h1>Tritons Cafe</h1>
+
+<div class="header-list">
+  <ul class="inline">
+    <li> <a href="01top.php">TOP</a></li>
+    <li> <a href="02sns.php">SNS</a></li>
+    <li> <a href="03menu.php">MENU</a></li>
+    <li> <a href="04event.php">EVENT</a></li>
+    <li> <a href="05access.php">ACCESS</a></li>
+  </ul>
+</div>
+</div>
+
+
+<div class="main">
+<hr size="0.5" color="#000000">
+
+<p>本日のオススメは
+
+<p>
+<?php
+   $num = rand(0, 2);
+   if ($num == 0) {
+     echo "エスプレッソ";
+   } else if ($num == 1) {
+     echo "スムージー";
+   } else if ($num == 2) {
+     echo "レモネード";
+   }
+ ?>
+
+<p>
+<img src="top002.jpg">
+<img src="top003.jpg">
+<img src="top004.jpg">
+
+<hr size="0.5" color="#000000">
+
+<h2>menu</h2>
+
+<div class="blocka">
+<h3><ruby>Espresso<rt>エスプレッソ</rt></ruby></h3>
+<p>アメリカーノ<br>カフェラテ<br>カフェモカ
+</div>
+
+<div class="blockb">
+<h3><ruby> Smoothie<rt>スムージー</rt></ruby></h3>
+<p>エスプレッソバナナ<br>エスプレッソシェイク<br>チョコバナナ
+</div>
+
+<div class="blockc">
+  <h3><ruby>OriginalLemonade<rt>自家製レモネード</rt></ruby></h3>
+
+<p>スパークリング<br>ブルーハワイ<br>ピンクストロベリー<br>
+メロンソーダ<br>ホットレモネード
+</div>
+
+<h3><ruby>Arrange<rt>アレンジ</rt></ruby></h3>
+
+<p>フロート・マシュマロ・ホイップ・ガムシロップ・タピオカ<br>
+  カラースプレー・チョコソース・キャラメルソース・ヘーゼルナッツシロップ
+
+
+<hr size="0.5" color="#000000">
+</div>
+
+<div class="footer">
+
+  <div class="footer-logo">
+    Tritons cafe
+
+  <div class="footer-address">
+    <ul>
+       <li>TOYAMA JAPAN</li>
+      <li> OPEN10:00 / CLOSE18:00</li>
+
+   </div>
+
+
+<div class="footer-mail">
+<a href="mailto:tritonscafe@gmail.com">
+  tritonscafe@gmail.com</a>
+
+</div>
+</div>
+</body>
+</html>
