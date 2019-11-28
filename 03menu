@@ -38,7 +38,7 @@ ruby {text-align:center; text-decoration: underline;}
 
 <body>
 
-<<div class="header">
+<div class="header">
   <h1>Tritons Cafe</h1>
 
 <div class="header-list">
