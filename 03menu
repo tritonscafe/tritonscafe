@@ -43,9 +43,9 @@ ruby {text-align:center; text-decoration: underline;}
 
 <div class="header-list">
   <ul class="inline">
-    <li> <a href="01top.php">TOP</a></li>
+    <li> <a href="https://tritonscafe.github.io/tritonscafe/01top">TOP</a></li>
     <li> <a href="02sns.php">SNS</a></li>
-    <li> <a href="03menu.php">MENU</a></li>
+    <li> <a href="https://tritonscafe.github.io/tritonscafe/03menu">MENU</a></li>
     <li> <a href="04event.php">EVENT</a></li>
     <li> <a href="05access.php">ACCESS</a></li>
   </ul>
